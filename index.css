@@ -1,0 +1,95 @@
+body{
+    height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: orangered;
+    text-align: center;
+}
+
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+
+
+h1{
+    color: green;
+    font-size: 60px;
+}
+h2{
+    font-size: 40px;
+}
+
+#board{
+    box-sizing: border-box;
+    box-shadow: 4px 4px 8px rgb(0, 0, 0 ,.7);
+}
+
+#highScore{
+    font-family: cursive;
+    font-size: 30px;
+    color: black;
+}
+
+#score{
+    font-size: 40px;
+    font-family: cursive;
+    color: green;
+}
+
+#hint{
+    font-size: 25px;
+    color: white;
+    font-family: monospace;
+    margin-top: 80px;
+    
+}
+
+#btn{
+   background-color: orchid; 
+   border-radius: 10px;
+   font-size: 30px;
+   letter-spacing: 2px;
+   border: none;
+   box-shadow: 2px 2px 4px rgb(0, 0, 0,.4);
+   padding: 10px;
+   margin-top: 50px;
+   opacity: 1;
+
+}
+#btn:hover{
+    cursor: pointer;
+    opacity: .8;
+}
+
+.footer{
+    margin-top: 90px;
+    justify-items: end;
+    align-items: flex-end;
+
+}
+.container{
+    width: 40vh;
+}
+
+#developer{
+    color: black;
+    font-size: 20px;
+    letter-spacing: 2px;
+    
+}
+
+@media screen and (max-width:800px) {
+
+    .main-container{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+
+
+
